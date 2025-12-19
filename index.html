@@ -637,7 +637,7 @@
   byId('btnFullscreen').addEventListener('click', toggleFullscreen);
 
   // ---------- Boot ----------
-  initPlayerInputs(["철수","영희","민수","지수","현우","나연"]);
+  initPlayerInputs(["광배","민주","보빈","보규","상원","다영","민지","나연","준수"]);
   setMinutes(5);
   renderTimer();
 
@@ -679,7 +679,7 @@
 
     // Test 3: confirmNextKing closes dialog
     const dlg = byId('dlgNextKing');
-    state.players = ['철수','영희','민수']; state.king='철수';
+    state.players = ['광배','민주','보빈','보규','상원','다영','민지','나연','준수']; state.king='준수';
     dlg.showModal();
     byId('selNextKing').innerHTML = '<option value="영희">영희</option><option value="민수">민수</option>';
     byId('selNextKing').value = '영희';
